@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ConTroll</title>
+        <script src="assets/lib/jquery-3.4.1.min.js"></script>
+        <script src="popup.js"></script>
+        <link href="popup.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1><img src="assets/images/icon48.png" id="controllLogo" /> ConTroll</h1>
+        <div class="controllContent">
+            <div class="controllBox controllBorderRight">
+                Hide comments that contain profanities or words from your block list
+                <button class="controllBtn" id="hideComments">Hide Comments</button>
+            </div>
+            <div class="controllBox" id="controllAddWordBox">
+                    Add Word to Block List
+                    <input type="text" id="controllBlockWord" placeholder="Word to be hidden" />
+                    <button class="controllBtn" id="addWord">Add Word to Blocklist</button>
+            </div>
+        </div>
+    </body>
+</html>

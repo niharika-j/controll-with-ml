@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+    background-color: #685454;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.controllOptionsLogo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#controllOptionsContent {
+    background-color: #f2f2f2;
+    width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+#controllOptionsNewWord {
+    width: 30vw;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #f0f0f0;
+    font-size: 14px;
+}
+
+#controllOptionsAddWord {
+    display:inline-block;
+    padding:0.7em 1.2em;
+    border:0.1em solid #ea8a8a;
+    margin:1em 0.3em 0.3em 1em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#ea8a8a;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#controllOptionsAddWord:hover {
+    color: #f2f2f2;;
+    background-color:#ea8a8a;
+}
+
+#controllOptionsBlockListTitle {
+    color: #ea8a8a;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#controllOptionsBlockedWordsList {
+    max-height: 50vh;
+    width: 40vw;
+    background-color: #ebd5d5;
+    padding: 20px;
+    position: relative;
+    font-size: 14px;
+    overflow: scroll;
+}
+
+.controllOptionsBlockListItem {
+    margin-bottom: 10px;
+    list-style-type: none;
+    background-color: rgba(242,242,242,0.5);
+    padding: 10px;
+}
+
+.controllOptionsRemoveWord {
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    color: #685454;
+}

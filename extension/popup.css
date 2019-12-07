@@ -1,0 +1,70 @@
+body {
+    width: 300px;
+    margin: 0;
+}
+
+h1 {
+    width: 100%;
+    height: 30px;
+    background-color: #685454;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 10px;
+}
+
+#controllLogo {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.controllContent {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.controllContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.controllBox {
+    width: 45%;
+    padding: 5px;
+}
+
+.controllBorderRight {
+    border-right: 1px solid #685454;
+    width: 43%;
+}
+
+#controllAddWordBox {
+    padding: 5px 10px;
+}
+
+.controllBtn {
+    display:block;
+    padding:0.7em 1.2em;
+    border:0.1em solid #ea8a8a;
+    margin:1em 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#ea8a8a;
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.controllBtn:hover {
+    color: #f2f2f2;;
+    background-color:#ea8a8a;
+}
+
+#controllBlockWord {
+    height: 18px;
+    padding: 5px;
+    width: 118px;
+    margin-top: 10px;
+}

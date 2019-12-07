@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "ConTroll",
+    "description": "ConTroll allows you to moderate comments on YouTube to hide trolls.",
+    "icons": {
+        "128": "assets/images/icon16.png",
+        "48": "assets/images/icon48.png",
+        "16": "assets/images/icon128.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "128": "assets/images/icon16.png",
+            "48": "assets/images/icon48.png",
+            "16": "assets/images/icon128.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "ConTroll"
+    },
+    "background": {
+        "scripts": ["background/eventPage.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content_scripts/content.js", "assets/lib/jquery-3.4.1.min.js"]
+        }
+    ],
+    "options_page": "context_menu/options.html",
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "tabs",
+        "https://www.youtube.com/*"
+    ]
+}

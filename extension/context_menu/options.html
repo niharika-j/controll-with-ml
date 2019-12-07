@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ConTroll Options</title>
+        <script src="../assets/lib/jquery-3.4.1.min.js"></script>
+        <script src="options.js"></script>
+        <link rel="stylesheet" type="text/css" href="options.css" />
+    </head>
+    <body>
+        <header>
+                <h1><img src="../assets/images/icon128.png" height="50" class="controllOptionsLogo" />ConTroll Options</h1>
+        </header>
+        <div id="controllOptionsContent">
+            <section>
+                    <input type="text" id="controllOptionsNewWord" placeholder="Add word to blocklist" />
+                    <button id="controllOptionsAddWord">Add Word</button>
+            </section>
+            <section>
+                    <p id="controllOptionsBlockListTitle">Personal Block List of Words</p>
+                    <ul id="controllOptionsBlockedWordsList"></ul>
+            </section>
+        </div>
+    </body>
+</html>
